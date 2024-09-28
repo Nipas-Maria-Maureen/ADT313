@@ -1,0 +1,40 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
+  height: 100vh; /* Full height of the viewport */
+  padding: 20px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.box {
+  background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent background */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+  padding: 30px; /* Inner padding */
+  width: 300px; /* Fixed width for the box */
+  text-align: center; /* Center text inside the box */
+}
+
+.light-mode {
+  background-color: white;
+  color: black;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+input {
+  margin: 5px;
+  padding: 8px;
+  width: 90%; /* Full width of the input inside the box */
+}
+
+button {
+  margin: 5px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
